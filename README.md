@@ -1,7 +1,10 @@
-# DCGAN-ON-FGVC-DATASET
 # 🌌 DCGAN for Synthetic Image Generation on FGVC Dataset
 
-This project implements a **Deep Convolutional GAN (DCGAN)** to generate synthetic images based on the **FGVC (Fine-Grained Visual Classification)** dataset, specifically focused on flight images.
+This project implements a **Deep Convolutional GAN (DCGAN)** to generate synthetic images based on the **FGVC (Fine-Grained Visual Classification)** dataset, specifically focused on flight images.The dataset contains 10,000 images of aircraft, The data is split into 3334 training images, 3333 validation and 3333 testing images Aircraft models are organized in a four-levels hierarchy. The four levels, from finer to coarser, are:
+
+Model, e.g. Boeing 737-76J. Since certain models are nearly visually indistinguishable, this level is not used in the evaluation. Variant, e.g. Boeing 737-700. A variant collapses all the models that are visually indistinguishable into one class. The dataset comprises 100 different variants.
+
+Family, e.g. Boeing 737. The dataset comprises 70 different families. Manufacturer, e.g. Boeing. The dataset comprises 41 different manufacturers
 
 ## Objective
 
